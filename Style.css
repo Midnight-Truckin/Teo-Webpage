@@ -1,6 +1,6 @@
 html{
     /* website background */
-    background-color: #a8dadc;
+    background-color: #cad2c5;
 }
 
 body{
@@ -12,8 +12,36 @@ body{
 nav{
     text-align: center;
     border-style: solid;
-    background-color: #bbd0ff;
+    background-color: #84a98c;
     word-spacing: 30px;
     height: 50px;
     padding-top: 10px;
+}
+
+nav > a{
+    /* changed the color of the "a" text inside bar */
+    color: #354f52;
+    font-size: 30px;
+}
+
+.active{
+    /* changes the color of tabs when "active" */
+    color: white;
+    text-decoration-color: white;
+}
+
+h1{
+    /* Moaves my name to the center */
+    text-align: center;
+    color: #2f3e46;
+}
+
+h2{
+    /* moves the "Student Developer to the center */
+    text-align: center;
+    color: #2f3e46;
+}
+
+p{
+    text-align: center;
 }
