@@ -43,6 +43,7 @@ h2{
 }
 
 .name{
+    
     margin-bottom: 0px;
     margin-top: 50px;
 }
@@ -62,8 +63,8 @@ footer{
     background-color: #52796f;
     height: 64px;
     padding: 16px;
-    position: fixed;
     /* makes it stay at the bottom of screen */
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -73,3 +74,29 @@ footer{
     /* Changed the color of the icon */
     color: #2f3e46;
 }
+
+    /* added a section to divide hobbys */
+section{
+    border-top: 1px solid;
+}
+
+    /* Moving the words to be on top of icon */
+.music, .Gaming, .Coding{
+    margin: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+    /* Moved words to be left side of icon */
+.fa-music, .fa-gamepad, .fa-code{
+    float: left;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0px;
+}
+
+    /* changing style for paragraph */
+p{
+        margin: 20px;
+        padding-bottom: 100px;
+    }
