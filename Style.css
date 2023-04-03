@@ -43,7 +43,7 @@ h2{
 }
 
 .name{
-    
+
     margin-bottom: 0px;
     margin-top: 50px;
 }
@@ -99,4 +99,21 @@ section{
 p{
         margin: 20px;
         padding-bottom: 100px;
-    }
+}
+    /* moves words to be on top of pictures */
+h3{
+    margin: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+    /* Moves words to be next to picture */
+img{
+    float: left;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0px;
+}
+/* Made my message bigger */
+#Java-Message{
+    font-size: 100px;
+}
