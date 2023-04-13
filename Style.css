@@ -24,6 +24,10 @@ nav > a{
     font-size: 30px;
 }
 
+nav > a:hover {
+    background-color: #cad2c5;
+  }
+
 .active{
     /* changes the color of tabs when "active" */
     color: white;
